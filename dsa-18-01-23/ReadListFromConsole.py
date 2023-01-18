@@ -6,12 +6,12 @@
 print("Enter integers to take as input separated by space: ")
 string_of_integers = input()
 
-list = string_of_integers.split(" ")
+list1 = string_of_integers.split(" ")
 
 for i in range(0, len(list)):
-    list[i] = int(list[i])
+    list1[i] = int(list1[i])
 
-print(list)
+print(list1)
 
 
 # 2nd way
@@ -19,10 +19,10 @@ print("-------------------------------------")
 print("Enter length of the list: ")
 
 n = int(input())
-list = []
+list2 = []
 
 for i in range(0, n):
     print("Enter", i + 1, "integer: ")
-    list.append(int(input()))
+    list2.append(int(input()))
 
-print(list)
+print(list2)
